@@ -28,5 +28,8 @@ console.log(userSurname);
 const userColor = prompt("Qual è il tuo colore preferito?")
 console.log(userColor);
 
-const psw = `${userName}${userSurname}21`;
+const psw = `${userName}${userSurname}${userColor}21`;
 console.log(psw);
+
+document.getElementById('user-name').innerText = userName;
+document.getElementById('password').innerText = psw;
