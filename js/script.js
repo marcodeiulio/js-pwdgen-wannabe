@@ -16,7 +16,8 @@ Scaletta:
 - Conserva cognome utente
 - Chiedi colore preferito
 - Conserva cognome preferito
-- Consegna password
+- Consegna password con aggiunta del 21
+- Scrittura password nell'HTML
 */
 
 const userName = prompt("Come ti chiami?");
